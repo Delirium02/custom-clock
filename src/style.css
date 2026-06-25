@@ -1,0 +1,40 @@
+/* CSS Reset */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Englebert&family=Petit+Formal+Script&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(220, 220, 220);
+}
+
+/* Global CSS */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  gap: 20px;
+}
+
+.time {
+  font-size: 50px;
+  font-family: "Englebert", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.colon {
+  background-color: rgb(255, 190, 190);
+  padding: 1px 10px 4px 10px;
+  border-radius: 5px;
+}
